@@ -1,0 +1,108 @@
+{
+    "sections": [
+        {
+            "id": "ny-1",
+            "name": "arts"
+        },
+        {
+            "id": "ny-2",
+            "name": "automobiles"
+        },
+        {
+            "id": "ny-3",
+            "name": "books/review"
+        },
+        {
+            "id": "ny-4",
+            "name": "business"
+        },
+        {
+            "id": "ny-5",
+            "name": "fashion"
+        },
+        {
+            "id": "ny-6",
+            "name": "food"
+        },
+        {
+            "id": "ny-7",
+            "name": "health"
+        },
+        {
+            "id": "ny-8",
+            "name": "home"
+        },
+        {
+            "id": "ny-9",
+            "name": "insider"
+        },
+        {
+            "id": "ny-10",
+            "name": "magazine"
+        },
+        {
+            "id": "ny-11",
+            "name": "movies"
+        },
+        {
+            "id": "ny-12",
+            "name": "nyregion"
+        },
+        {
+            "id": "ny-13",
+            "name": "obituaries"
+        },
+        {
+            "id": "ny-14",
+            "name": "opinion"
+        },
+        {
+            "id": "ny-15",
+            "name": "politics"
+        },
+        {
+            "id": "ny-16",
+            "name": "realestate"
+        },
+        {
+            "id": "ny-17",
+            "name": "science"
+        },
+        {
+            "id": "ny-18",
+            "name": "sports"
+        },
+        {
+            "id": "ny-19",
+            "name": "sundayreview"
+        },
+        {
+            "id": "ny-20",
+            "name": "technology"
+        },
+        {
+            "id": "ny-21",
+            "name": "theater"
+        },
+        {
+            "id": "ny-22",
+            "name": "t-magazine"
+        },
+        {
+            "id": "ny-23",
+            "name": "travel"
+        },
+        {
+            "id": "ny-24",
+            "name": "upshot"
+        },
+        {
+            "id": "ny-25",
+            "name": "us"
+        },
+        {
+            "id": "ny-26",
+            "name": "world"
+        }
+    ]
+}

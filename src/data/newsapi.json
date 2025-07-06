@@ -1,0 +1,32 @@
+{
+    "sections": [
+        {
+            "id": "news-1",
+            "name": "business"
+        },
+        {
+            "id": "news-2",
+            "name": "entertainment"
+        },
+        {
+            "id": "news-3",
+            "name": "general"
+        },
+        {
+            "id": "news-4",
+            "name": "health"
+        },
+                {
+            "id": "news-5",
+            "name": "science"
+        },
+        {
+            "id": "news-6",
+            "name": "sports"
+        },
+        {
+            "id": "news-7",
+            "name": "technology"
+        }
+   ]
+}

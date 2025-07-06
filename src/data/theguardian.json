@@ -1,0 +1,24 @@
+{
+    "sections": [
+        {
+            "id": "gu-1",
+            "name": "news"
+        },
+        {
+            "id": "gu-2",
+            "name": "opinion"
+        },
+        {
+            "id": "gu-3",
+            "name": "sport"
+        },
+        {
+            "id": "gu-4",
+            "name": "culture"
+        },
+        {
+            "id": "gu-5",
+            "name": "lifestyle"
+        }
+   ]
+}
