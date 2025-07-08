@@ -1,32 +1,42 @@
 {
+    "name": "News API",
+    "slug": "newsapi",
+    "baseURL": "https://newsapi.org/v2/",
     "sections": [
         {
             "id": "news-1",
-            "name": "business"
+            "name": "business",
+            "url": ""
         },
         {
             "id": "news-2",
-            "name": "entertainment"
+            "name": "entertainment",
+            "url": ""
         },
         {
             "id": "news-3",
-            "name": "general"
+            "name": "general",
+            "url": ""
         },
         {
             "id": "news-4",
-            "name": "health"
+            "name": "health",
+            "url": ""
         },
-                {
+        {
             "id": "news-5",
-            "name": "science"
+            "name": "science",
+            "url": ""
         },
         {
             "id": "news-6",
-            "name": "sports"
+            "name": "sports",
+            "url": ""
         },
         {
             "id": "news-7",
-            "name": "technology"
+            "name": "technology",
+            "url": ""
         }
-   ]
+    ]
 }
