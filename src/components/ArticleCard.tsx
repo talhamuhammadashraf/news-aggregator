@@ -1,29 +1,31 @@
 import React from "react";
-import type { Article } from "../types";
-import { Card, CardContent, CardMedia, Typography, Box, CardActionArea } from "@mui/material";
+import type { Article } from "../types/article";
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Typography,
+  Box,
+  CardActionArea,
+} from "@mui/material";
 import { formatDistance } from "date-fns";
 
-interface ArticleCardProps {
-  article: Article;
-}
-
-const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
+const ArticleCard: React.FC<Article> = (article) => {
   return (
     <Card>
       {/* <Card sx={{ width: { sm: "100%", md: "45%", lg:"30%" }, mx: "auto", my: 2 }}> */}
       <CardContent sx={{ display: "flex", flexDirection: "row", flex: 1 }}>
         <CardActionArea onClick={() => window.open(article.url, "_blank")}>
-        <Box>
-          <Typography color="#000" variant="h6">
-            {article.title}
-          </Typography>
+          <Box>
+            <Typography color="#000" variant="h6">
+              {article.title}
+            </Typography>
 
-          <Typography color="#2F2F2F" variant="body1">
-            {article.description}
-          </Typography>
-        </Box>
+            <Typography color="#2F2F2F" variant="body1">
+              {article.description}
+            </Typography>
+          </Box>
         </CardActionArea>
-
 
         <CardMedia
           component="img"
@@ -32,7 +34,8 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
             height: 140,
             mx: { sm: "auto" },
           }}
-          image={article.imageUrl}
+          height={140}
+          src={article.imageUrl}
           alt={article.title}
         />
       </CardContent>
