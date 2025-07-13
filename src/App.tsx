@@ -31,10 +31,10 @@ const theme = createTheme({
             width: "100%",
           },
           "@media (min-width:900px)": {
-            width: "45%",
+            width: "48%",
           },
           "@media (min-width:1200px)": {
-            width: "30%",
+            width: "80%",
           },
         },
       },

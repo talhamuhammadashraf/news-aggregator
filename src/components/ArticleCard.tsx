@@ -13,8 +13,14 @@ import { formatDistance } from "date-fns";
 const ArticleCard: React.FC<Article> = (article) => {
   return (
     <Card>
-      {/* <Card sx={{ width: { sm: "100%", md: "45%", lg:"30%" }, mx: "auto", my: 2 }}> */}
-      <CardContent sx={{ display: "flex", flexDirection: "row", flex: 1 }}>
+      <CardContent
+        sx={{
+          display: "flex",
+          flexDirection: { xs:"column-reverse",sm: "row", md:"column-reverse", lg:"row"},
+          flex: 1,
+          alignItems: "flex-start",
+        }}
+      >
         <CardActionArea onClick={() => window.open(article.url, "_blank")}>
           <Box>
             <Typography color="#000" variant="h6">
@@ -30,11 +36,10 @@ const ArticleCard: React.FC<Article> = (article) => {
         <CardMedia
           component="img"
           sx={{
-            width: { xs: 150, sm: 200, md: 400 },
-            height: 140,
+            width: { sm: 360, md:"100%",lg: 1440 },
+            height: 400,
             mx: { sm: "auto" },
           }}
-          height={140}
           src={article.imageUrl}
           alt={article.title}
         />
