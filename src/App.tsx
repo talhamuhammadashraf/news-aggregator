@@ -12,7 +12,7 @@ const theme = createTheme({
       main: "#1976d2",
     },
     secondary: {
-      main: "#dc004e",
+      main: "#fff",
     },
   },
   typography: {
@@ -36,6 +36,16 @@ const theme = createTheme({
           "@media (min-width:1200px)": {
             width: "80%",
           },
+        },
+      },
+    },
+    MuiToolbar: {
+      styleOverrides: {
+        root: {
+          justifyContent: "space-between",
+          backgroundColor: "#4644ea",
+          paddingTop: "32px",
+          paddingBottom: "32px",
         },
       },
     },

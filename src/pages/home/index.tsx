@@ -1,17 +1,15 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import SelectSource from "../../components/SelectSource";
-import SearchInput from "../../components/Search";
+import SearchInput from "../../components/SearchInput";
 import CategoryTabs from "../../components/Tabs";
+import { useState } from "react";
+import SearchArticles from "../search";
+
 const Header = () => {
+  const [isModalVisible, setModalVisible] = useState(false);
   return (
     <AppBar position="sticky">
-      <Toolbar
-        sx={{
-          justifyContent: "space-between",
-          backgroundColor: "#4644ea",
-          py: 4,
-        }}
-      >
+      <Toolbar>
         <Typography
           color="#fff"
           sx={{
@@ -28,14 +26,18 @@ const Header = () => {
           New Aggregator
         </Typography>
 
-        <SearchInput />
+        <SearchInput editable={false} onClick={() => setModalVisible(true)} />
 
         <SelectSource />
-        
+        <SearchArticles
+          isVisible={isModalVisible}
+          close={() => setModalVisible(false)}
+        />
       </Toolbar>
     </AppBar>
   );
 };
+
 const Home = () => (
   <div>
     <Header />

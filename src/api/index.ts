@@ -85,7 +85,7 @@ async function nytimesCategory(
     `https://api.nytimes.com/svc/topstories/v2/${category}.json`,
     { params: { "api-key": APIKeys[source] } }
   );
-  return data.data.results.map(
+  return data.data.results?.map(
     (article: {
       abstract: string;
       byline: string;
@@ -100,7 +100,7 @@ async function nytimesCategory(
       title: article.title,
       description: article.abstract,
       url: article.url,
-      imageUrl: article.multimedia.length > 0 ? article.multimedia[0].url : "",
+      imageUrl: article?.multimedia?.length > 0 ? article?.multimedia?.[0]?.url : "",
       publishedAt: article.published_date,
       author: article.byline,
       category: article.section,
