@@ -138,7 +138,7 @@ export const fetchAllArticles: FetchArticlesFn = async (source, keyword, isSearc
     case "theguardian":
       return theguardianCategory(source, keyword);
     default: {
-      throw new Error(`Unhandled source: ${source}`);
+      throw new Error("Something went wrong while fetching articles.");
     }
   }
 };
