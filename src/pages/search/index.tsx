@@ -12,8 +12,7 @@ type Props = {
 };
 
 const SearchArticles: FC<Props> = ({ close, isVisible }) => {
-  const [keyWord, setKeyword] = useState<string>("");
-  console.log("Search keyword:", keyWord);
+  const [keyword, setKeyword] = useState<string>("");
 
   const handleChange = (value: string) => {
     setKeyword(value);
@@ -51,10 +50,12 @@ const SearchArticles: FC<Props> = ({ close, isVisible }) => {
           <SelectSource />
         </Toolbar>
 
-        {keyWord ? (
-          <Box sx={{ p: 3 }}>{<ArticleList category={keyWord!} />}</Box>
+        {keyword ? (
+          <Box sx={{ p: 3 }}>{<ArticleList {...{ keyword }} isSearch />}</Box>
         ) : (
-          <EmptyState color="primary">Enter a keyword to find articles.</EmptyState>
+          <EmptyState color="primary">
+            Enter a keyword to find articles.
+          </EmptyState>
         )}
       </Box>
     </Modal>

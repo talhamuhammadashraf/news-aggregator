@@ -38,7 +38,7 @@ export default function CategoryTabs() {
       </Box>
 
       <Box sx={{ p: 3 }}>
-        <ArticleList category={selectedCategory} />
+        <ArticleList keyword={selectedCategory} />
       </Box>
     </Box>
   );
