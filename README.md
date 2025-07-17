@@ -4,6 +4,15 @@
 News Aggregator is a React-based web application that aggregates news articles from multiple sources, providing a unified interface for browsing, searching, and filtering news. The project is built with Vite, TypeScript, and leverages modern React features for efficient state management and data fetching.
 
 ## Getting Started
+### Environment Variables
+Create a `.env` file in the project root with the following keys:
+
+```env
+VITE_NEWSAPI_KEY=your_newsapi_key_here
+VITE_THE_GUARDIAN_KEY=your_theguardian_key_here
+VITE_NEW_YORK_TIMES_KEY=your_nytimes_key_here
+```
+Replace the values with your actual API keys for each provider.
 
 
 ### Prerequisites
