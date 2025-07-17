@@ -1,108 +1,139 @@
 {
+    "name": "New York Times",
+    "slug": "nytimes",
+    "baseURL": "https://api.nytimes.com/svc",
+    "qURL":"/search/v2/articlesearch.json",
+    "sectionURL": "/topstories/v2/{section}.json",
     "sections": [
         {
-            "id": "ny-1",
-            "name": "arts"
+            "id": "nyt-1",
+            "name": "arts",
+            "url": ""
         },
         {
-            "id": "ny-2",
-            "name": "automobiles"
+            "id": "nyt-2",
+            "name": "automobiles",
+            "url": ""
         },
         {
-            "id": "ny-3",
-            "name": "books/review"
+            "id": "nyt-3",
+            "name": "books/review",
+            "url": ""
         },
         {
-            "id": "ny-4",
-            "name": "business"
+            "id": "nyt-4",
+            "name": "business",
+            "url": ""
         },
         {
-            "id": "ny-5",
-            "name": "fashion"
+            "id": "nyt-5",
+            "name": "fashion",
+            "url": ""
         },
         {
-            "id": "ny-6",
-            "name": "food"
+            "id": "nyt-6",
+            "name": "food",
+            "url": ""
         },
         {
-            "id": "ny-7",
-            "name": "health"
+            "id": "nyt-7",
+            "name": "health",
+            "url": ""
         },
         {
-            "id": "ny-8",
-            "name": "home"
+            "id": "nyt-8",
+            "name": "home",
+            "url": ""
         },
         {
-            "id": "ny-9",
-            "name": "insider"
+            "id": "nyt-9",
+            "name": "insider",
+            "url": ""
         },
         {
-            "id": "ny-10",
-            "name": "magazine"
+            "id": "nyt-10",
+            "name": "magazine",
+            "url": ""
         },
         {
-            "id": "ny-11",
-            "name": "movies"
+            "id": "nyt-11",
+            "name": "movies",
+            "url": ""
         },
         {
-            "id": "ny-12",
-            "name": "nyregion"
+            "id": "nyt-12",
+            "name": "nyregion",
+            "url": ""
         },
         {
-            "id": "ny-13",
-            "name": "obituaries"
+            "id": "nyt-13",
+            "name": "obituaries",
+            "url": ""
         },
         {
-            "id": "ny-14",
-            "name": "opinion"
+            "id": "nyt-14",
+            "name": "opinion",
+            "url": ""
         },
         {
-            "id": "ny-15",
-            "name": "politics"
+            "id": "nyt-15",
+            "name": "politics",
+            "url": ""
         },
         {
-            "id": "ny-16",
-            "name": "realestate"
+            "id": "nyt-16",
+            "name": "realestate",
+            "url": ""
         },
         {
-            "id": "ny-17",
-            "name": "science"
+            "id": "nyt-17",
+            "name": "science",
+            "url": ""
         },
         {
-            "id": "ny-18",
-            "name": "sports"
+            "id": "nyt-18",
+            "name": "sports",
+            "url": ""
         },
         {
-            "id": "ny-19",
-            "name": "sundayreview"
+            "id": "nyt-19",
+            "name": "sundayreview",
+            "url": ""
         },
         {
-            "id": "ny-20",
-            "name": "technology"
+            "id": "nyt-20",
+            "name": "technology",
+            "url": ""
         },
         {
-            "id": "ny-21",
-            "name": "theater"
+            "id": "nyt-21",
+            "name": "theater",
+            "url": ""
         },
         {
-            "id": "ny-22",
-            "name": "t-magazine"
+            "id": "nyt-22",
+            "name": "t-magazine",
+            "url": ""
         },
         {
-            "id": "ny-23",
-            "name": "travel"
+            "id": "nyt-23",
+            "name": "travel",
+            "url": ""
         },
         {
-            "id": "ny-24",
-            "name": "upshot"
+            "id": "nyt-24",
+            "name": "upshot",
+            "url": ""
         },
         {
-            "id": "ny-25",
-            "name": "us"
+            "id": "nyt-25",
+            "name": "us",
+            "url": ""
         },
         {
-            "id": "ny-26",
-            "name": "world"
+            "id": "nyt-26",
+            "name": "world",
+            "url": ""
         }
     ]
 }
