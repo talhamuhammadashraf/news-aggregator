@@ -1,24 +1,33 @@
 {
+    "name": "The Guardian",
+    "slug": "theguardian",
+    "baseURL": "https://content.guardianapis.com",
+    "sectionURL": "/sections",
     "sections": [
         {
-            "id": "gu-1",
-            "name": "news"
+            "id": "guard-1",
+            "name": "news",
+            "url": ""
         },
         {
-            "id": "gu-2",
-            "name": "opinion"
+            "id": "guard-2",
+            "name": "opinion",
+            "url": ""
         },
         {
-            "id": "gu-3",
-            "name": "sport"
+            "id": "guard-3",
+            "name": "sport",
+            "url": ""
         },
         {
-            "id": "gu-4",
-            "name": "culture"
+            "id": "guard-4",
+            "name": "culture",
+            "url": ""
         },
         {
-            "id": "gu-5",
-            "name": "lifestyle"
+            "id": "guard-5",
+            "name": "lifestyle",
+            "url": ""
         }
-   ]
+    ]
 }
